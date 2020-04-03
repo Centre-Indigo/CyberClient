@@ -21,11 +21,11 @@ namespace stock
         public Form1()
         {
             InitializeComponent();
-            this.TopMost = true;
+            //this.TopMost = true;
 
-            this.FormBorderStyle = FormBorderStyle.None;
+            //this.FormBorderStyle = FormBorderStyle.None;
 
-            this.WindowState = FormWindowState.Maximized;
+            //this.WindowState = FormWindowState.Maximized;
             
         }
 
@@ -130,6 +130,11 @@ namespace stock
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
